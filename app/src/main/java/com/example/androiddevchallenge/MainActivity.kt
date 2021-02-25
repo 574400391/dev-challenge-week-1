@@ -15,23 +15,49 @@
  */
 package com.example.androiddevchallenge
 
+import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.*
+import androidx.compose.material.MaterialTheme.colors
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import com.example.androiddevchallenge.data.Dog
 import com.example.androiddevchallenge.ui.theme.MyTheme
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+import com.google.gson.stream.JsonReader
 
 class MainActivity : AppCompatActivity() {
+
+    var mAppContext: Context? = null
+    var mDogList: List<Dog> = []
     override fun onCreate(savedInstanceState: Bundle?) {
+        mAppContext = this
         super.onCreate(savedInstanceState)
         setContent {
             MyTheme {
                 MyApp()
             }
+        }
+        try {
+            (mAppContext as MainActivity).assets.open("dogs.json").use { inputStream ->
+                JsonReader(inputStream.reader()).use { jsonReader ->
+                    val dogType = object : TypeToken<List<Dog>>() {}.type
+                    val dogList: List<Dog> = Gson().fromJson(jsonReader, dogType)
+                    Log.d("MainActivity", "dataInitSuccess: " + Gson().toJson(dogList))
+
+                    mDogList = dogList
+                }
+            }
+        } catch (ex: Exception) {
         }
     }
 }
@@ -40,7 +66,21 @@ class MainActivity : AppCompatActivity() {
 @Composable
 fun MyApp() {
     Surface(color = MaterialTheme.colors.background) {
-        Text(text = "Ready... Set... GO!")
+        Scaffold(
+            topBar = { TopAppBar(title = { Text("dogs") }) },
+            content = { padding ->
+//                LazyColumnFor(mDogList) { item ->
+//                    Card(
+//                        backgroundColor = colors.primary,
+//                        shape = RoundedCornerShape(8.dp),
+//                        modifier = Modifier.padding(8.dp)
+//                    ) {
+//                        Text(text = "1231231")
+//                    }
+//                    ArtistCard(item, onSelected)
+//                }
+            }
+        )
     }
 }
 

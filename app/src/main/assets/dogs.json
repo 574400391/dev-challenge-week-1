@@ -1,0 +1,68 @@
+[
+  {
+    "name": "阿富汗猎犬",
+    "category": "狩猎犬",
+    "description": "阿富汗猎狗 是一种猎犬，也是最古老的狗品种之一。阿富汗猎狗外表厚实，脸型、身形修长，毛细腻而柔滑，它的尾巴在最后一环卷曲。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/AKC_Helena_Fall_Dog_Show_2011.jpg/300px-AKC_Helena_Fall_Dog_Show_2011.jpg"
+  },
+  {
+    "name": "万能㹴",
+    "category": "战争犬，导盲犬和警犬",
+    "description": "万能㹴，也叫宾利㹴，滨水㹴，是起源于河艾尔谷（戴尔），在英格兰约克郡的西部骑马品种的㹴类犬。传统上被称为“㹴之王”，因为它是世界上最大的㹴品种。在英国，这个品种也被用来作为战争犬，导盲犬和警犬。\n\n",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Airedale_Terrier.jpg"
+  },
+  {
+    "name": "土耳其阿卡巴士犬",
+    "category": "护卫犬",
+    "description": "土耳其阿卡巴士犬的历史可追溯自古代西土耳其作为牧羊犬和护卫犬。由于产地偏僻，品种依然纯正。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Akbash_Dog_in_CA.jpg/300px-Akbash_Dog_in_CA.jpg"
+  },
+  {
+    "name": "秋田犬",
+    "category": "狩猎犬",
+    "description": "秋田犬，原称“大馆犬”，是日本犬的一种，是国家天然纪念物之六种日本犬中唯一的大型犬种。在日本，送秋田犬的雕像、图片代表著“祝你早日康复”。在日本是以对饲主忠诚闻名的家庭宠物犬，日本知名的忠犬八公即为秋田犬。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Molly_akita.jpg/300px-Molly_akita.jpg"
+  },
+  {
+    "name": "阿拉斯加雪橇犬",
+    "category": "工作犬",
+    "description": "阿拉斯加雪橇犬（英语：Alaskan Malamute）又称阿拉斯加马拉穆，是最古老的雪橇犬之一。这种犬与同在阿拉斯加的其它犬种不同，四肢强壮有力，培育它的目的是为了耐力而不是速度，因而它们的主要用途是拉雪橇。阿拉斯加雪橇犬有时候会被误认为西伯利亚雪橇犬，这是由于这两者的颜色和条纹相似，但实际上两者在大小、结构和特性等方面完全不同。作为宠物，阿拉斯加雪橇犬一旦成熟后有着非常安静、高雅的气质，而且它们忠于主人。它的名字来自爱斯基摩人的伊努伊特族的一个叫做马拉谬特的部落，这个部落生活在北美阿拉斯加西部一个叫做扣赞伯(Kotzebue)的岸边。欧洲人到来之前，最早发现此地的俄国人是在白令海峡航行时被风暴吹到这块西伯利亚北部的土地的。水兵们返回俄国之后，就把他们在这里印象深刻的事情告诉了其他的俄国人，这当然包括了这里的特色——阿拉斯加雪橇犬。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Alaskan_Malamute.jpg/300px-Alaskan_Malamute.jpg"
+  },
+  {
+    "name": "阿富汗猎犬",
+    "category": "狩猎犬",
+    "description": "阿富汗猎狗 是一种猎犬，也是最古老的狗品种之一。阿富汗猎狗外表厚实，脸型、身形修长，毛细腻而柔滑，它的尾巴在最后一环卷曲。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/AKC_Helena_Fall_Dog_Show_2011.jpg/300px-AKC_Helena_Fall_Dog_Show_2011.jpg"
+  },
+  {
+    "name": "美国斗牛犬",
+    "category": "护卫犬",
+    "description": "斗牛犬 系一种哺乳类动物，系一中型犬种，又名老虎狗、牛头犬，斗牛犬一词通常被用来称呼英国斗牛犬，其余斗牛犬种包含美国斗牛犬 、古英国斗牛犬 、勒维特斗牛犬 、复刻版英国斗牛犬 以及法国斗牛犬 等。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/BUCKEYE_2010_ANCHOR_BULLY_RASCALZ.jpg/300px-BUCKEYE_2010_ANCHOR_BULLY_RASCALZ.jpg"
+  },
+  {
+    "name": "美国卡可狗",
+    "category": "狩猎犬",
+    "description": "美国卡可狗，又称可卡獚、斗鸡獚、斗鸡犬、可卡猎鹬犬、小猎犬、可卡长毛猎犬等，香港称作美国曲架。它擅长惊起或寻回鸟类等猎物。\n\n",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/American_Cocker_in_Tallinn_2.JPG/300px-American_Cocker_in_Tallinn_2.JPG"
+  },
+  {
+    "name": "美国爱斯基摩犬",
+    "category": "宠物犬",
+    "description": "美国爱斯基摩犬（英语：American Eskimo Dog）是一种来自德国的玩赏犬犬种。虽然美国爱斯基摩犬这个名称有“美国”这两个字，但其实这种狗起源于北欧。美国爱斯基摩犬的祖先是德国绒毛犬，而这种狗在世界大战一时被名为美国爱斯基摩犬。美国爱斯基摩犬根据身形被分为三种:玩具犬，小型犬和标准犬。他们长着白色的毛，外貌和银狐犬和萨摩耶犬十分类似。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/American_Eskimo_Dog.jpg/300px-American_Eskimo_Dog.jpg"
+  },
+  {
+    "name": "大丹犬",
+    "category": "警卫犬",
+    "description": "大丹犬（英语：Great Dane），也称做大丹狗、德国獒（德语：Deutsche Dogge）。被人们视为世界犬中的阿波罗，产于德国，历史可追溯至爱尔兰猎狼犬和古代英国獒[1]。尽管在有些地方大丹犬被称为“丹麦猎犬”，但是它们并非来自丹麦或在丹麦被驯化[2]。该狗聪明、勇敢，忠于主人，体高达70厘米以上，体重45公斤以上。它是犬中斗士，易于训练，可饲养成能力强且服从命令的警卫犬。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dogge_Odin.jpg/300px-Dogge_Odin.jpg"
+  },
+  {
+    "name": "日本狐狸犬",
+    "category": "宠物犬",
+    "description": "日本狐狸犬（英语：Japanese Spitz），通称狐狸犬、白狐狸犬、银狐犬，是一种属于日本犬的小至中形狐狸犬（Spitz）之犬种，通常做为玩赏犬。世界不同的养犬俱乐部对银狐犬的大小有不同的要求，但银狐犬一定要比博美犬大。银狐犬在1920年和1930年开始被繁殖，现时被世界各国的养犬俱乐部认可。银狐犬却得不到美国养犬俱乐部的认可，由于外貌和白色博美犬，美国爱斯基摩犬和萨摩耶犬太类似。此种狗历史不长，为相当新的品种，但由于良好的性格和其他因素变得越来越受欢迎的流行品种。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/JapaneseSpitzPhoto1_-_hiro.jpg"
+  }
+]
