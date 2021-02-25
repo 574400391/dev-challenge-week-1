@@ -38,7 +38,7 @@ import com.google.gson.stream.JsonReader
 class MainActivity : AppCompatActivity() {
 
     var mAppContext: Context? = null
-    var mDogList: List<Dog> = []
+    var mDogList: List<Dog>? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         mAppContext = this
         super.onCreate(savedInstanceState)
@@ -47,17 +47,14 @@ class MainActivity : AppCompatActivity() {
                 MyApp()
             }
         }
-        try {
-            (mAppContext as MainActivity).assets.open("dogs.json").use { inputStream ->
-                JsonReader(inputStream.reader()).use { jsonReader ->
-                    val dogType = object : TypeToken<List<Dog>>() {}.type
-                    val dogList: List<Dog> = Gson().fromJson(jsonReader, dogType)
-                    Log.d("MainActivity", "dataInitSuccess: " + Gson().toJson(dogList))
+        (mAppContext as MainActivity).assets.open("dogs.json").use { inputStream ->
+            JsonReader(inputStream.reader()).use { jsonReader ->
+                val dogType = object : TypeToken<List<Dog>>() {}.type
+                val dogList: List<Dog> = Gson().fromJson(jsonReader, dogType)
+                Log.d("MainActivity", "dataInitSuccess: " + Gson().toJson(dogList))
 
-                    mDogList = dogList
-                }
+                mDogList = dogList
             }
-        } catch (ex: Exception) {
         }
     }
 }
@@ -68,17 +65,18 @@ fun MyApp() {
     Surface(color = MaterialTheme.colors.background) {
         Scaffold(
             topBar = { TopAppBar(title = { Text("dogs") }) },
-            content = { padding ->
-//                LazyColumnFor(mDogList) { item ->
-//                    Card(
-//                        backgroundColor = colors.primary,
-//                        shape = RoundedCornerShape(8.dp),
-//                        modifier = Modifier.padding(8.dp)
-//                    ) {
-//                        Text(text = "1231231")
-//                    }
-//                    ArtistCard(item, onSelected)
-//                }
+            content = {
+                LazyColumn() {
+                    item {
+                        Card(
+                            backgroundColor = colors.primary,
+                            shape = RoundedCornerShape(8.dp),
+                            modifier = Modifier.padding(8.dp)
+                        ) {
+                            Text(text = "1231231")
+                        }
+                    }
+                }
             }
         )
     }
